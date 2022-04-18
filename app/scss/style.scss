@@ -19,6 +19,7 @@ body{
     color: $GrayishBlue;
     font-family: 'Bai Jamjuree', sans-serif;
     width: 100vw;
+    overflow-x: hidden;
     main{
         background-image: url(../../images/bg-header-desktop.png);
         background-repeat: no-repeat;
