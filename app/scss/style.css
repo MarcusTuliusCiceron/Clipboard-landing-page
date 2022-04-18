@@ -205,7 +205,6 @@ body main .hero .hero_img {
     background-size: contain;
     width: 100vw;
     height: 65vw;
-    border: solid 1px red;
   }
 }
 
@@ -301,7 +300,6 @@ body main .sunset_image {
   body main .sunset_image {
     width: 100vw;
     height: 67vw;
-    border: solid 1px red;
   }
 }
 

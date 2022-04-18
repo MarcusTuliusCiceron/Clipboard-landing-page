@@ -136,7 +136,6 @@ body{
                     background-size: contain;
                     width: 100vw;
                     height: 65vw;
-                    border: solid 1px red;
                 }
             }
             .hero_list{
@@ -204,7 +203,6 @@ body{
             @include breakpoint-down(medium){
                 width: 100vw;
                 height: 67vw;
-                border: solid 1px red;
             }
         }
         .third_paragraph{
