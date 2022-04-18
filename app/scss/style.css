@@ -1,0 +1,417 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #4c545d;
+}
+
+body {
+  font-size: 18px;
+  color: #9fabb2;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body main {
+  background-image: url(../../images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .logo {
+  background-image: url(../../images/logo.svg);
+  height: 125px;
+  width: 125px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: 130px;
+}
+
+body main .title {
+  margin-top: 60px;
+  text-align: center;
+  width: 51vw;
+}
+
+body main .title h1 {
+  font-size: 44px;
+}
+
+body main .title p {
+  margin-top: 15px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+body main .download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+body main .download a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 16px 38px;
+  border-radius: 30px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+body main .download a:nth-child(1) {
+  background-color: #26baa4;
+}
+
+body main .download a:nth-child(2) {
+  background-color: #6173ff;
+}
+
+body main .download a:hover {
+  opacity: 0.6;
+}
+
+body main .first_paragraph {
+  text-align: center;
+  margin-top: 150px;
+  width: 50vw;
+}
+
+body main .first_paragraph h2 {
+  font-size: 35px;
+}
+
+body main .first_paragraph p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+body main .hero {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 90px;
+}
+
+body main .hero .hero_img {
+  background-image: url(../../images/image-computer.png);
+  background-position: -40px 0px;
+  background-size: 105%;
+  background-repeat: no-repeat;
+  width: 50vw;
+  height: 40vw;
+}
+
+body main .hero .hero_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50vw;
+  padding-left: 7.6vw;
+  padding-top: 55px;
+  padding-bottom: 110px;
+  padding-right: 18.05vw;
+}
+
+body main .hero .hero_list .hero_list_item h3 {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+
+body main .hero .hero_list .hero_list_item p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+body main .second_paragraph {
+  text-align: center;
+  margin-top: 110px;
+  width: 50vw;
+}
+
+body main .second_paragraph h2 {
+  font-size: 35px;
+}
+
+body main .second_paragraph p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+body main .sunset_image {
+  margin-top: 105px;
+  width: 62vw;
+  height: 42vw;
+  background-image: url(../../images/image-devices.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+body main .third_paragraph {
+  text-align: center;
+  margin-top: 60px;
+  width: 50vw;
+}
+
+body main .third_paragraph h2 {
+  font-size: 35px;
+}
+
+body main .third_paragraph p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+body main .grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 70px;
+  padding: 0px 10.07vw;
+}
+
+body main .grid .grid_item {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 33.33%;
+}
+
+body main .grid .grid_item:nth-child(1) .grid_item_icon {
+  width: 44px;
+  height: 40px;
+  background-image: url(../../images/icon-blacklist.svg);
+  margin-bottom: 40px;
+}
+
+body main .grid .grid_item:nth-child(2) .grid_item_icon {
+  width: 36px;
+  height: 32px;
+  background-image: url(../../images/icon-text.svg);
+}
+
+body main .grid .grid_item:nth-child(3) .grid_item_icon {
+  width: 50px;
+  height: 32px;
+  background-image: url(../../images/icon-preview.svg);
+}
+
+body main .grid .grid_item .grid_item_icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+body main .grid .grid_item h3 {
+  font-size: 23px;
+}
+
+body main .grid .grid_item p {
+  padding: 18px;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-top: 0px;
+}
+
+body main .icons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -ms-grid-rows: 60px;
+      grid-template-rows: 60px;
+  width: 100%;
+  padding: 0px 10.07vw;
+  margin-top: 140px;
+}
+
+body main .icons .icon {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body main .icons .icon:nth-child(1) {
+  background-image: url(../../images/logo-google.png);
+}
+
+body main .icons .icon:nth-child(2) {
+  background-image: url(../../images/logo-ibm.png);
+}
+
+body main .icons .icon:nth-child(3) {
+  background-image: url(../../images/logo-microsoft.png);
+}
+
+body main .icons .icon:nth-child(4) {
+  background-image: url(../../images/logo-hp.png);
+}
+
+body main .icons .icon:nth-child(5) {
+  background-image: url(../../images/logo-vector-graphics.png);
+}
+
+body main .fourth_paragraph {
+  text-align: center;
+  margin-top: 160px;
+  width: 50vw;
+}
+
+body main .fourth_paragraph h2 {
+  font-size: 35px;
+}
+
+body main .fourth_paragraph p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+body main footer {
+  background-color: #F5F6F8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-top: 150px;
+  padding: 40px 160px;
+}
+
+body main footer .logo {
+  margin: 0;
+  width: 60px;
+  height: 60px;
+  margin-right: 135px;
+}
+
+body main footer .links {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+}
+
+body main footer .links a {
+  text-decoration: none;
+  color: #9fabb2;
+  margin-bottom: 20px;
+  margin-right: 75px;
+}
+
+body main footer .links a:hover {
+  color: #26baa4;
+}
+
+body main footer .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+  margin-left: 15vw;
+}
+
+body main footer .socials .social_icon:nth-child(1) {
+  background-image: url(../../images/icon-facebook.svg);
+  width: 24px;
+  height: 24px;
+}
+
+body main footer .socials .social_icon:nth-child(1):hover {
+  background-image: url(../../images/icon-facebook_copy.svg);
+}
+
+body main footer .socials .social_icon:nth-child(2) {
+  background-image: url(../../images/icon-twitter.svg);
+  width: 24px;
+  height: 20px;
+}
+
+body main footer .socials .social_icon:nth-child(2):hover {
+  background-image: url(../../images/icon-twitter_copy.svg);
+}
+
+body main footer .socials .social_icon:nth-child(3) {
+  background-image: url(../../images/icon-instagram.svg);
+  width: 24px;
+  height: 24px;
+}
+
+body main footer .socials .social_icon:nth-child(3):hover {
+  background-image: url(../../images/icon-instagram_copy.svg);
+}
+
+body main footer .socials .social_icon:hover {
+  color: #26baa4;
+  cursor: pointer;
+}
+
+.attribution {
+  background-color: #F5F6F8;
+}
+
+@media (max-width: 65.5625rem) {
+  .hideForMobile {
+    display: none;
+  }
+}
+
+@media (min-width: 65.625rem) {
+  .hideForDesktop {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
